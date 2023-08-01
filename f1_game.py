@@ -3,11 +3,11 @@ from urllib.request import urlopen
 
 #driver predictions
 player1 = ['VER', 'PER', 'LEC', 'HAM', 'SAI', 'RUS', 'ALO', 'GAS','NOR', 'STR',
-        'OCO', 'PIA', 'BOT', 'MAG', 'HUL', 'ZHO', 'DEV', 'TSU', 'ALB', 'SAR']
+        'OCO', 'PIA', 'BOT', 'MAG', 'RIC', 'HUL', 'ZHO', 'DEV', 'TSU', 'ALB', 'SAR']
 player2 = ['VER', 'LEC', 'SAI', 'PER', 'RUS', 'HAM', 'NOR', 'BOT', 'ALO', 'GAS',
-       'OCO', 'STR', 'ALB', 'MAG', 'HUL', 'ZHO', 'SAR', 'TSU', 'PIA', 'DEV']
+       'OCO', 'STR', 'ALB', 'MAG', 'HUL', 'RIC', 'ZHO', 'SAR', 'TSU', 'PIA', 'DEV']
 player3 = ['VER', 'PER', 'LEC', 'SAI', 'RUS', 'HAM', 'ALO', 'NOR', 'BOT', 'OCO',
-       'MAG', 'STR', 'GAS', 'PIA', 'HUL', 'TSU', 'ZHO', 'ALB', 'DEV', 'SAR']
+       'MAG', 'STR', 'GAS', 'PIA', 'RIC', 'HUL', 'TSU', 'ZHO', 'ALB', 'DEV', 'SAR']
 
 #create dict of entries
 entries = {'player1': player1, 'player2': player2, 'player3':player3}
